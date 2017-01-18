@@ -1,0 +1,346 @@
+
+.row {
+background: white;
+margin-left: 20px;
+margin-right: 20px;
+padding-bottom: 50px;
+   -webkit-box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
+   -moz-box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
+   box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
+}
+
+
+#one {
+
+    position: relative;
+    background-color: #c9e8ff;
+    }
+
+
+
+#discussion-sidebar {
+    min-height: 200px;
+    }
+
+#title-image {
+padding: 10px;
+}
+
+
+#one-in {
+padding-left: 0px;
+}
+
+#one-in-left {
+  background-color: #c9e8ff;
+  min-height: 240px;
+  }
+
+#one-in-right {
+padding: 0px;
+}
+
+#title-image {
+ display: inline-block;
+ float: left;
+}
+
+#person-title {
+padding-left: 60px;
+}
+
+.thumbnail {
+min-height: 220px;
+padding: 15px;
+background-color: #eeeeee;
+margin-top: 20px;
+color: black;
+}
+
+.thumbnail1 {
+min-height: 220px;
+padding: 15px;
+margin-top: 20px;
+}
+
+.thumbnail-buttom {
+padding: 7px;
+border-top: 0.2px solid grey;
+top:190px;
+left: 20px;
+right: 20px;
+position: absolute;
+width: inherit;
+}
+
+.thumbnail-buttom-more {
+padding: 7px;
+top:170px;
+left: 20px;
+right: 20px;
+position: absolute;
+width: inherit;
+}
+
+#thumb-image {
+margin-top: 30px;
+}
+
+
+
+.thumbnail-buttom-more{
+font-size: 18px;
+font-weight: bold;
+font-family: 'Courgette'
+}
+
+
+.discussion-sidebar p {
+font-size: 22px;
+font-weight: bold;
+font-family: 'Courgette'
+}
+
+.discussion-sidebar {
+padding: 15px;
+}
+
+#header {
+min-height: inherit;
+vertical-align: bottom;
+}
+
+#header1 {
+top:40px;
+padding: 10px;
+}
+
+#header1 form {
+float: right;
+
+}
+
+#header11 {
+top:40px;
+padding: 10px;
+
+}
+
+#header11 p {
+text-align: center;
+font-family: 'Courgette';
+font-size: 17px;
+
+}
+
+.page-header {
+margin: 0px;
+}
+
+#search-bar {
+width: 100%;
+padding: 8px;
+background-color: #eeeeee;
+    border: 1px solid grey;
+}
+
+#search-div{
+
+font-size: 16px;
+margin: auto;
+}
+
+#search-button{
+border: 1px solid grey;
+margin: auto;
+height: 120%;
+width: 90%;
+font-size: 20px;
+text-align: center;
+color: grey;
+float: right;
+padding: 5px;
+}
+
+#more-questions {
+font-family: 'Courgette';
+font-size: 26px;
+color: red;
+padding: 20px;
+}
+
+#content {
+border-left: 60px solid #ffe1ad;
+border-right: 60px solid #ffe1ad;
+border-bottom: 120px solid #ffe1ad;
+}
+
+
+#person-title {
+color: #22227e;
+font-family: 'Courgette';
+display: inline-block;
+   width: inherit;
+   height: inherit;
+   margin: 5px;
+}
+
+#person-ask{
+font-size: 20px;
+}
+
+.person-details {
+position: absolute;
+font-size: 22px;
+left: 160px;
+color: #22227e;
+font-family: 'Courgette';
+}
+
+#font-arrow {
+position: absolute;
+  top:30px;
+  left: 50px;
+}
+
+.profile-circle {
+font-size: 24px;
+position: absolute;
+margin: auto;
+text-align: center;
+top: 215px;
+height: auto;
+left: 0px;
+padding: 7px;
+width: inherit;
+color: grey;
+width: 100%;
+}
+
+
+.thumbnail p:hover {
+color: black;
+}
+
+
+
+#modal-imgg{
+display: block;
+margin-left: auto;
+   margin-right: auto;
+}
+
+.modal-info {
+display: inline-block;
+width: auto;
+padding: 10px;
+margin: auto;
+}
+
+.modal-info2 {
+margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+#myModalLabel{
+margin: auto;
+padding: 10px;
+}
+
+#font-arrow2 {
+float: right;
+}
+
+#modal-title {
+display: inline-block;
+text-align: center;
+width: 90%;
+}
+
+.random-squares{
+padding-left: 55px;
+padding-right: 15px;
+margin: auto;
+
+}
+
+.square{
+
+width: 120px;
+height: 120px;
+background: #c9e8ff;
+/* Rotate */
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+transform: rotate(-45deg);
+/* Rotate Origin */
+-webkit-transform-origin: 0 100%;
+-moz-transform-origin: 0 100%;
+-ms-transform-origin: 0 100%;
+-o-transform-origin: 0 100%;
+transform-origin: 0 100%;
+margin: 60px 0 10px 310px;
+display: inline-block;
+margin-left: 20px;
+margin-right: 20px;
+font-size: 22px;
+}
+
+.square p {
+padding-top: auto;
+padding-bottom: auto;
+}
+
+#box1 {
+transform: rotate(-38deg);
+}
+
+#box2 {
+transform: rotate(-42deg);
+}
+#box3 {
+transform: rotate(-26deg);
+}
+
+#modal-people {
+display: block;
+border: 20px;
+display: inline-block;
+margin-left: 15px;
+margin-right: 15px;
+background-color: red;
+}
+
+.person-det {
+display: inline-block;
+margin: auto;
+}
+
+.modal-footer {
+text-align: center;
+}
+
+.hot-discution {
+background-color: #eee;
+}
+
+#modal-person{
+background-color: #EC4141;
+  border-radius: 60%;
+  display: table;
+  height: 100px;
+  margin: 10px auto;
+  width: 100px;
+  margin-top: -45px;
+}
+
+.modal-footer-desc {
+display: inline-block;
+padding: 10px;
+margin: auto;
+font-family: 'Courgette';
+font-size: 20px;
+}

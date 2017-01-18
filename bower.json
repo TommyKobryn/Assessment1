@@ -1,0 +1,20 @@
+{
+  "name": "asessment 1 Montrail",
+  "description": "simple app",
+  "main": "index.html",
+  "keywords": [
+    "montrail"
+  ],
+  "authors": [
+    "tom"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
