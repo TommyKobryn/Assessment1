@@ -20,7 +20,7 @@
         <div class="container">
           <div id="header" class="col-sm-12">
             <div class="col-sm-4">
-        <img src="images/logo.png" />
+        <a href="#"><img src="images/logo.png" /></a>
       </div>
 
       <div id="header1" class="col-sm-5">
@@ -37,7 +37,7 @@
           <div id="header11" class="col-sm-3">
 
 <p>
-  <i>Sort by:</i> <a href="#">recent</a> or hot
+  <i>Sort by:</i> <a href="#">recent</a> or <a href="#">hot</a>
 </p>
 </div>
 </div>
@@ -73,11 +73,11 @@
 
 <div id="one" class="col-sm-9">
 
-<img class="img-circle" id= "title-image" src="images/face.jpg" alt="face" style="width:80px; height:80px" />
+<a href="#"><img class="img-circle" id= "title-image" src="images/face.jpg" data-toggle="modal" data-target="#myModal" alt="face" style="width:80px; height:80px" /></a>
 
 <div id="box-title">
 
-<h1 id="person-title"> Eva </h1> <span id="person-ask">IS ASKING:</span>
+<a href="#"><h1 id="person-title" data-toggle="modal" data-target="#myModal"> Eva </h1></a> <span id="person-ask" >IS ASKING:</span>
 <p class="person-details">
   Will insuline make my patient gain weight?
 </p>
@@ -103,7 +103,7 @@
     </div>
 
     <div class="col-sm-3">
-        <a href="#"> <div class="thumbnail" data-toggle="modal" data-target="#myModal">
+        <a href="comments.html"> <div class="thumbnail" >
           <img src="images/face.jpg" class="img-circle" id="thumb-image" alt="face" style="height:60px;width:60px">
         <p class ="thumbnail-buttom" style="text-align:center">
           COMMENTED
@@ -116,7 +116,7 @@
     </a>  </div>
 
       <div class="col-sm-3">
-          <div class="thumbnail">
+        <a href="comments.html"> <div class="thumbnail" >
             <img src="images/face.jpg" class="img-circle" id="thumb-image" alt="face" style="height:60px;width:60px">
           <p class ="thumbnail-buttom" style="text-align:center">
             COMMENTED
@@ -125,10 +125,10 @@
             &#9679;
           </p>
           </div>
-        </div>
+      </a>  </div>
 
         <div class="col-sm-3">
-            <div class="thumbnail">
+          <a href="comments.html"> <div class="thumbnail" >
               <img src="images/face.jpg" class="img-circle" id="thumb-image" alt="face" style="height:60px;width:60px">
             <p class ="thumbnail-buttom" style="text-align:center">
               ANSWERED
@@ -137,12 +137,7 @@
               &#9679;
             </p>
             </div>
-          </div>
-
-
-
-
-
+        </a>  </div>
 
 </div>
 
@@ -471,5 +466,7 @@ $(.thumbnail).click(function(){
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js  "></script>
+
   </body>
 </html>
