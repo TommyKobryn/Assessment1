@@ -1,454 +1,429 @@
-
 .row {
-background: white;
-margin-left: 20px;
-margin-right: 20px;
-padding-bottom: 50px;
-   -webkit-box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
-   -moz-box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
-   box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
+    background: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+    -webkit-box-shadow: 2px 0 5px 0 rgba(143, 139, 141, 1);
+    -moz-box-shadow: 2px 0 5px 0 rgba(143, 139, 141, 1);
+    box-shadow: 2px 0 5px 0 rgba(143, 139, 141, 1)
 }
-
 
 #one {
-
     position: relative;
-    background-color: #c9e8ff;
-    }
-
-
-
-#discussion-sidebar {
-    min-height: 200px;
-    }
-
-#title-image {
-padding: 10px;
+    background-color: #c9e8ff
 }
 
+#discussion-sidebar {
+    min-height: 200px
+}
+
+#title-image {
+    padding: 10px
+}
 
 #one-in {
-padding-left: 0px;
+    padding-left: 0
 }
 
 #one-in-left {
-  background-color: #c9e8ff;
-  min-height: 240px;
-  }
+    background-color: #c9e8ff;
+    min-height: 240px
+}
 
 #one-in-right {
-padding: 0px;
+    padding: 0
 }
 
 #title-image {
- display: inline-block;
- float: left;
+    display: inline-block;
+    float: left
 }
 
 #person-title {
-padding-left: 60px;
+    padding-left: 60px
 }
 
 .thumbnail {
-min-height: 220px;
-padding: 15px;
-background-color: #eeeeee;
-margin-top: 20px;
-color: black;
+    min-height: 220px;
+    padding: 15px;
+    background-color: #eee;
+    margin-top: 20px;
+    color: black
 }
 
 .thumbnail1 {
-min-height: 220px;
-padding: 15px;
-margin-top: 20px;
+    min-height: 220px;
+    padding: 15px;
+    margin-top: 20px
 }
 
 .thumbnail-buttom {
-padding: 7px;
-border-top: 0.2px solid grey;
-top:190px;
-left: 20px;
-right: 20px;
-position: absolute;
-width: inherit;
+    padding: 7px;
+    border-top: .2px solid grey;
+    top: 190px;
+    left: 20px;
+    right: 20px;
+    position: absolute;
+    width: inherit
 }
 
 .thumbnail-buttom-more {
-padding: 7px;
-top:170px;
-left: 20px;
-right: 20px;
-position: absolute;
-width: inherit;
+    padding: 7px;
+    top: 170px;
+    left: 20px;
+    right: 20px;
+    position: absolute;
+    width: inherit
 }
 
 #thumb-image {
-margin-top: 30px;
+    margin-top: 30px
 }
 
-
-
-.thumbnail-buttom-more{
-font-size: 18px;
-font-weight: bold;
-font-family: 'Courgette'
+.thumbnail-buttom-more {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Courgette'
 }
-
 
 .discussion-sidebar p {
-font-size: 22px;
-font-weight: bold;
-font-family: 'Courgette'
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Courgette'
 }
 
 .discussion-sidebar {
-padding: 15px;
+    padding: 15px
 }
 
 #header {
-min-height: inherit;
-vertical-align: bottom;
+    min-height: inherit;
+    vertical-align: bottom
 }
 
 #header1 {
-top:40px;
-padding: 10px;
+    top: 40px;
+    padding: 10px
 }
 
 #header1 form {
-float: right;
-
+    float: right
 }
 
 #header11 {
-top:40px;
-padding: 10px;
-
+    top: 40px;
+    padding: 10px
 }
 
 #header11 p {
-text-align: center;
-font-family: 'Courgette';
-font-size: 17px;
-
+    text-align: center;
+    font-family: 'Courgette';
+    font-size: 17px
 }
 
 .page-header {
-margin: 0px;
+    margin: 0
 }
 
 #search-bar {
-width: 100%;
-padding: 8px;
-background-color: #eeeeee;
+    width: 100%;
+    padding: 8px;
+    background-color: #eee;
+    border: 1px solid grey
+}
+
+#search-div {
+    font-size: 16px;
+    margin: auto
+}
+
+#search-button {
     border: 1px solid grey;
-}
-
-#search-div{
-
-font-size: 16px;
-margin: auto;
-}
-
-#search-button{
-border: 1px solid grey;
-margin: auto;
-height: 120%;
-width: 90%;
-font-size: 20px;
-text-align: center;
-color: grey;
-float: right;
-padding: 5px;
+    margin: auto;
+    height: 120%;
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+    float: right;
+    padding: 5px
 }
 
 #more-questions {
-font-family: 'Courgette';
-font-size: 26px;
-color: red;
-padding: 20px;
+    font-family: 'Courgette';
+    font-size: 26px;
+    color: red;
+    padding: 20px
 }
 
 #content {
-border-left: 60px solid #ffe1ad;
-border-right: 60px solid #ffe1ad;
-border-bottom: 120px solid #ffe1ad;
+    border-left: 60px solid #ffe1ad;
+    border-right: 60px solid #ffe1ad;
+    border-bottom: 120px solid #ffe1ad
 }
-
 
 #person-title {
-color: #22227e;
-font-family: 'Courgette';
-display: inline-block;
-   width: inherit;
-   height: inherit;
-   margin: 5px;
+    color: #22227e;
+    font-family: 'Courgette';
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    margin: 5px
 }
 
-#person-ask{
-font-size: 20px;
+#person-ask {
+    font-size: 20px
 }
 
 .person-details {
-position: absolute;
-font-size: 22px;
-left: 160px;
-color: #22227e;
-font-family: 'Courgette';
+    position: absolute;
+    font-size: 22px;
+    left: 160px;
+    color: #22227e;
+    font-family: 'Courgette'
 }
 
 #font-arrow {
-position: absolute;
-  top:30px;
-  left: 50px;
+    position: absolute;
+    top: 30px;
+    left: 50px
 }
 
 .profile-circle {
-font-size: 24px;
-position: absolute;
-margin: auto;
-text-align: center;
-top: 215px;
-height: auto;
-left: 0px;
-padding: 7px;
-width: inherit;
-color: grey;
-width: 100%;
+    font-size: 24px;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 215px;
+    height: auto;
+    left: 0;
+    padding: 7px;
+    width: inherit;
+    color: grey;
+    width: 100%
 }
-
 
 .thumbnail p:hover {
-color: black;
+    color: black
 }
 
-
-
-#modal-imgg{
-display: block;
-margin-left: auto;
-   margin-right: auto;
+#modal-imgg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .modal-info {
-display: inline-block;
-width: auto;
-padding: 10px;
-margin: auto;
+    display: inline-block;
+    width: auto;
+    padding: 10px;
+    margin: auto
 }
 
 .modal-info2 {
-margin-left: auto;
-   margin-right: auto;
-   text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
 }
 
-#myModalLabel{
-margin: auto;
-padding: 10px;
+#myModalLabel {
+    margin: auto;
+    padding: 10px
 }
 
 #font-arrow2 {
-float: right;
+    float: right
 }
 
 #modal-title {
-display: inline-block;
-text-align: center;
-width: 90%;
+    display: inline-block;
+    text-align: center;
+    width: 90%
 }
 
-.random-squares{
-padding-left: 55px;
-padding-right: 15px;
-margin: auto;
-
+.random-squares {
+    padding-left: 55px;
+    padding-right: 15px;
+    margin: auto
 }
 
-.square{
-
-width: 120px;
-height: 120px;
-background: #c9e8ff;
-/* Rotate */
--webkit-transform: rotate(-45deg);
--moz-transform: rotate(-45deg);
--ms-transform: rotate(-45deg);
--o-transform: rotate(-45deg);
-transform: rotate(-45deg);
-/* Rotate Origin */
--webkit-transform-origin: 0 100%;
--moz-transform-origin: 0 100%;
--ms-transform-origin: 0 100%;
--o-transform-origin: 0 100%;
-transform-origin: 0 100%;
-margin: 60px 0 10px 310px;
-display: inline-block;
-margin-left: 20px;
-margin-right: 20px;
-font-size: 22px;
+.square {
+    width: 120px;
+    height: 120px;
+    background: #c9e8ff;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    margin: 60px 0 10px 310px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px
 }
 
 .square p {
-padding-top: auto;
-padding-bottom: auto;
+    padding-top: auto;
+    padding-bottom: auto
 }
 
 #box1 {
-transform: rotate(-38deg);
+    transform: rotate(-38deg)
 }
 
 #box2 {
-transform: rotate(-42deg);
+    transform: rotate(-42deg)
 }
+
 #box3 {
-transform: rotate(-26deg);
+    transform: rotate(-26deg)
 }
 
 #modal-people {
-display: block;
-border: 20px;
-display: inline-block;
-margin-left: 15px;
-margin-right: 15px;
-background-color: red;
+    display: block;
+    border: 20px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: red
 }
 
 .person-det {
-display: inline-block;
-margin: auto;
+    display: inline-block;
+    margin: auto
 }
 
 .modal-footer {
-text-align: center;
+    text-align: center
 }
 
 .hot-discution {
-background-color: #eee;
+    background-color: #eee
 }
 
-#modal-person{
-background-color: #EC4141;
-  border-radius: 60%;
-  display: table;
-  height: 100px;
-  margin: 10px auto;
-  width: 100px;
-  margin-top: -45px;
+#modal-person {
+    background-color: #ec4141;
+    border-radius: 60%;
+    display: table;
+    height: 100px;
+    margin: 10px auto;
+    width: 100px;
+    margin-top: -45px
 }
 
 .modal-footer-desc {
-display: inline-block;
-padding: 10px;
-margin: auto;
-font-family: 'Courgette';
-font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Courgette';
+    font-size: 20px
 }
-
 
 .comment-desc {
-padding: 15px;
-font-size: 1.2em;
-margin: auto;
+    padding: 15px;
+    font-size: 1.2em;
+    margin: auto
 }
-
 
 .row-comment {
-background: white;
-height: auto;
-width: auto;
-padding-left: 0px;
-padding-right: 0px;
-
-border-bottom: 0.3px solid grey;
-   -webkit-box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
-   -moz-box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
-   box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
+    background: white;
+    height: auto;
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: .3px solid grey;
+    -webkit-box-shadow: 2px 0 5px 0 rgba(143, 139, 141, 1);
+    -moz-box-shadow: 2px 0 5px 0 rgba(143, 139, 141, 1);
+    box-shadow: 2px 0 5px 0 rgba(143, 139, 141, 1)
 }
 
-#comment-button{
-display: block;
-border: 1px solid grey;
-margin-left: auto;
-margin-right: auto;
-margin-top: -20px;
-background-color: white;
-width: 300px;
-font-size: 20px;
-text-align: center;
-color: black;
-padding: 5px;
-margin-bottom: 30px;
-font-weight: bold;
+#comment-button {
+    display: block;
+    border: 1px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    background-color: white;
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    margin-bottom: 30px;
+    font-weight: bold
 }
 
 .comment-peers {
-padding: 10px;
-margin: auto;
-font-family: 'Courgette';
-font-size: 20px;
-text-align: center;
-font-weight: bold;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Courgette';
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold
 }
 
 .comment-name p {
-display: inline-block;
+    display: inline-block
 }
 
-.comment-div{
-padding: 15px;
-background: white;
-padding-left: 0px;
-padding-right: 0px;
-
-border-bottom: 0.3px solid grey;
-   -webkit-box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
-   -moz-box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
-   box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
-
+.comment-div {
+    padding: 15px;
+    background: white;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: .3px solid grey;
+    -webkit-box-shadow: 2px 0 5px 0 rgba(143, 139, 141, 1);
+    -moz-box-shadow: 2px 0 5px 0 rgba(143, 139, 141, 1);
+    box-shadow: 2px 0 5px 0 rgba(143, 139, 141, 1)
 }
 
-.commentt-div{
-padding: 15px;
-background: white;
-padding-left: 0px;
-padding-right: 0px;
-border-bottom: 0.3px solid grey;
-   -webkit-box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
-   -moz-box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
-   box-shadow: 2px 0px 5px 0px rgba(143,139,141,1);
+.commentt-div {
+    padding: 15px;
+    background: white;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: .3px solid grey;
+    -webkit-box-shadow: 2px 0 5px 0 rgba(143, 139, 141, 1);
+    -moz-box-shadow: 2px 0 5px 0 rgba(143, 139, 141, 1);
+    box-shadow: 2px 0 5px 0 rgba(143, 139, 141, 1)
 }
 
 .comment-buttom1 {
-margin-bottom: 100px;
-margin-left: auto;
-margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto
 }
 
-#comment-button1{
-display: block;
-border: 1px solid grey;
-margin-left: auto;
-margin-right: auto;
-margin-top: -15px;
-background-color: white;
-width: 250px;
-font-size: 20px;
-text-align: center;
-color: black;
-padding: 5px;
-margin-bottom: 30px;
-font-weight: bold;
+#comment-button1 {
+    display: block;
+    border: 1px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    background-color: white;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    margin-bottom: 30px;
+    font-weight: bold
 }
 
-.comment-buttom2{
-margin: auto;
-padding: inherit;
+.comment-buttom2 {
+    margin: auto;
+    padding: inherit
 }
 
-
-@media(min-width:767px){
-.commentt-div{
-float: right;
-width: 90%;}
+@media(min-width:767px) {
+    .commentt-div {
+        float: right;
+        width: 90%
+    }
 }

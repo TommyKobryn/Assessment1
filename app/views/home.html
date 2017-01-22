@@ -1,3 +1,6 @@
+<div ng-controller="questionController">
+
+
 <div class="row">
 
 <div id="one" class="col-sm-9">
@@ -6,9 +9,10 @@
 
 <div id="box-title">
 
-<a href="#"><h1 id="person-title" data-toggle="modal" data-target="#myModal"> Eva </h1></a> <span id="person-ask" >IS ASKING:</span>
-<p class="person-details">
-Will insuline make my patient gain weight?
+<a href="#"><h1 id="person-title" ng-repeat="question in questions | limitTo : 1" data-toggle="modal" data-target="#myModal">
+  {{question.name}} </h1></a> <span id="person-ask" >IS ASKING:</span>
+<p ng-repeat="question in questions | limitTo : 1 | filter:search" class="person-details">
+{{question.title}}
 </p>
 </div>
 </div>
@@ -102,9 +106,9 @@ Will insuline make my patient gain weight?
 
 <div id="box-title">
 
-<h1 id="person-title"> Eva </h1> <span id="person-ask">IS ASKING:</span>
-<p class="person-details">
-Will insuline make my patient gain weight?
+<h1 ng-repeat="question in questions.slice(1) | limitTo : 1 " id="person-title"> {{question.name}} </h1> <span id="person-ask">IS ASKING:</span>
+<p ng-repeat="question in questions.slice(1) | limitTo : 1 | filter:search" class="person-details">
+{{question.title}}
 </p>
 </div>
 </div>
@@ -203,9 +207,9 @@ Will insuline make my patient gain weight?
 
 <div id="box-title">
 
-<h1 id="person-title"> Eva </h1> <span id="person-ask">IS ASKING:</span>
-<p class="person-details">
-  Will insuline make my patient gain weight?
+  <h1 ng-repeat="question in questions.slice(2) | limitTo : 1" id="person-title"> {{question.name}} </h1> <span id="person-ask">IS ASKING:</span>
+  <p ng-repeat="question in questions.slice(2) | limitTo | filter:search : 1" class="person-details">
+  {{question.title}}
 </p>
 </div>
 </div>
@@ -280,10 +284,10 @@ Will insuline make my patient gain weight?
 
   </div>
 
-<div class="row">
+<div ng-controller="ControllerJson" class="row">
 
-<p id="more-questions">
-load more questions
+<p ng-repeat="x in data" id="more-questions">
+  {{x.name}}  load more questions
 </p>
 
 </div>
@@ -364,5 +368,6 @@ THE HOTTEST DISCUSSION OF THESE DAYS
         </div>
       </div>
      </div>
+</div>
 </div>
 </div>
