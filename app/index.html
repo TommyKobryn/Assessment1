@@ -46,8 +46,9 @@
 
 
     </div>
-    <div id="search-button-div" class="col-sm-3">
-    <a href="#" id="search-button">
+
+    <div ng-controller="questionController" id="search-button-div" class="col-sm-3">
+    <a href="#" ng-model="search" id="search-button">
     SEARCH
     </a>
 
@@ -87,6 +88,8 @@
 <script src="scripts/app.js"></script>
 <script src="scripts/app.config.js"></script>
 <script src="scripts/main.js"></script>
+<script src="scripts/controllers.js"></script>
+
 
   </body>
 </html>
